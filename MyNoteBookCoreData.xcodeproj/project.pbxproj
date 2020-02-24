@@ -16,6 +16,8 @@
 		5AFDC4CB24041F8A00DEC6EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFDC4C924041F8A00DEC6EC /* LaunchScreen.storyboard */; };
 		5AFDC4D624041F8A00DEC6EC /* MyNoteBookCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDC4D524041F8A00DEC6EC /* MyNoteBookCoreDataTests.swift */; };
 		5AFDC4E124041F8A00DEC6EC /* MyNoteBookCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDC4E024041F8A00DEC6EC /* MyNoteBookCoreDataUITests.swift */; };
+		5AFDC4EF24041FEA00DEC6EC /* NoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDC4EE24041FEA00DEC6EC /* NoteItem.swift */; };
+		5AFDC4F324042E0600DEC6EC /* NoteItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDC4F224042E0600DEC6EC /* NoteItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5AFDC4DC24041F8A00DEC6EC /* MyNoteBookCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNoteBookCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFDC4E024041F8A00DEC6EC /* MyNoteBookCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNoteBookCoreDataUITests.swift; sourceTree = "<group>"; };
 		5AFDC4E224041F8A00DEC6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFDC4EE24041FEA00DEC6EC /* NoteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItem.swift; sourceTree = "<group>"; };
+		5AFDC4F224042E0600DEC6EC /* NoteItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				5AFDC4BB24041F8900DEC6EC /* AppDelegate.swift */,
 				5AFDC4BD24041F8900DEC6EC /* SceneDelegate.swift */,
 				5AFDC4C224041F8900DEC6EC /* ContentView.swift */,
+				5AFDC4EE24041FEA00DEC6EC /* NoteItem.swift */,
+				5AFDC4F224042E0600DEC6EC /* NoteItemView.swift */,
 				5AFDC4C424041F8A00DEC6EC /* Assets.xcassets */,
 				5AFDC4C924041F8A00DEC6EC /* LaunchScreen.storyboard */,
 				5AFDC4CC24041F8A00DEC6EC /* Info.plist */,
@@ -274,6 +280,8 @@
 				5AFDC4C124041F8900DEC6EC /* MyNoteBookCoreData.xcdatamodeld in Sources */,
 				5AFDC4C324041F8900DEC6EC /* ContentView.swift in Sources */,
 				5AFDC4BE24041F8900DEC6EC /* SceneDelegate.swift in Sources */,
+				5AFDC4EF24041FEA00DEC6EC /* NoteItem.swift in Sources */,
+				5AFDC4F324042E0600DEC6EC /* NoteItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
